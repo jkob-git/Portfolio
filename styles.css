@@ -1,0 +1,57 @@
+.title {
+    color: green;
+}
+header {
+    display:flex;
+position: sticky;
+top: 0;
+padding: 10px 16px;
+background: black;
+color: white;
+    align-items:center;
+
+}
+
+.logo{
+    display:flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    align-items:center;
+    margin:8px;
+    color:white
+    
+}
+
+.tab {
+        display:flex;
+        width: 18vw;
+        height: 3.6vw;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 2vw;
+        margin: 1px;
+      }
+
+.tabs {
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    text-decoration: none; 
+    color: black; 
+}
+
+
+a:hover {
+    color: red; 
+}
